@@ -14,7 +14,6 @@ module.exports = function(app) {
       res.json(data);
     });
   });
-
   app.put("/api/workouts/:id", function(req, res) {
     console.log("req.params", req.params);
     console.log("req.body", req.body);
